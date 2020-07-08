@@ -60,7 +60,7 @@
 	<body>
 	
 		<div>
-			<h2 style="text-align: center;"><span style="color: #00ffff;"><strong><a href="https://www.geeksforgeeks.org/html-calculator/">어디선가</a> 퍼온 계산기<br></strong></span></h2>
+			<h2 style="text-align: center;"><span style="color: #00ffff;"><strong><a href="https://www.geeksforgeeks.org/html-calculator/" target="_blank">어디선가</a> 퍼온 계산기<br></strong></span></h2>
 		</div>
 	
       			<table border="1"> 
@@ -102,7 +102,7 @@
 		
 			<p>유세진 짱짱맨<br><br>
 			계산기 코드 출처: https://www.geeksforgeeks.org/html-calculator
-			<a href="https://www.geeksforgeeks.org/html-calculator/">[클릭하여 바로가기]</a>
+			<a href="https://www.geeksforgeeks.org/html-calculator/" target="_blank"> [클릭하여 바로가기]</a>
 			</p>
 		
 		</footer>
