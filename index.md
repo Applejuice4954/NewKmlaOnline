@@ -100,8 +100,9 @@
 	
 		<footer>
 		
-			<p>유세진 짱짱맨<br>
-			계산기 코드 출처:<a href="https://www.geeksforgeeks.org/html-calculator/">[클릭]</a>
+			<p>유세진 짱짱맨<br><br>
+			계산기 코드 출처: https://www.geeksforgeeks.org/html-calculator
+			<a href="https://www.geeksforgeeks.org/html-calculator/">[리다이렉트]</a>
 			</p>
 		
 		</footer>
