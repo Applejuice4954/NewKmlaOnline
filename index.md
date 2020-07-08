@@ -28,14 +28,14 @@
          		title{ 
          		margin-bottom: 10px; 
          		text-align:center; 
-         		width: 210px; 
+         		width: 105px; 
          		color: black; 
          		border: solid black 2px; 
          		} 
   
          		input[type="button"] 
          		{ 
-        		background-color:lightgreen; 
+        		background-color:ghostwhite; 
          		color: black; 
          		border: solid black 2px; 
          		width: 100%
@@ -54,7 +54,7 @@
 	<body>
 	
 		<div>
-			<h2 style="text-align: center;"><span style="color: #00ffff;"><strong>뉴큼온을 위한 작은 도약</strong></span></h2>
+			<h2 style="text-align: center;"><span style="color: #00ffff;"><strong>어디선가 퍼온 계산기<br></strong></span></h2>
 		</div>
 	
       			<table border="1"> 
