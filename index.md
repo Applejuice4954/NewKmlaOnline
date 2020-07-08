@@ -92,6 +92,12 @@
          		</tr> 
       		</table> 
 	
+		<footer>
+		
+			<p style="text-align: center;"><span style="color: #808080;">유세진 짱짱맨</span></p>
+			<p style="text-align: center;"><span style="color: #808080;">계산기 코드 출처:&nbsp;<a style="color: #808080;" href="https://www.geeksforgeeks.org/html-calculator/">https://www.geeksforgeeks.org/html-calculator/</a></span></p>
+		
+		</footer>
 	</body>
 	
 </html>
