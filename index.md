@@ -47,6 +47,12 @@
          		border: solid black 2px; 
          		width: 100%
          		} 
+			
+			footer {
+ 			text-align: center;
+ 			padding: 3px;
+			color: #808080;
+			}
       		</style> 
 		
 	</head>
@@ -94,8 +100,9 @@
 	
 		<footer>
 		
-			<p style="text-align: center;"><span style="color: #808080;">유세진 짱짱맨</span></p>
-			<p style="text-align: center;"><span style="color: #808080;">계산기 코드 출처:&nbsp;<a style="color: #808080;" href="https://www.geeksforgeeks.org/html-calculator/">https://www.geeksforgeeks.org/html-calculator/</a></span></p>
+			<p>유세진 짱짱맨<br>
+			계산기 코드 출처:<a href="https://www.geeksforgeeks.org/html-calculator/">[클릭]</a>
+			</p>
 		
 		</footer>
 	</body>
