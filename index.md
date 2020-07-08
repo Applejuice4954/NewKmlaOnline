@@ -1,38 +1,50 @@
 <html>
 	<head>
-		<h2 style="text-align: center;"><span style="color: #00ffff;"><strong>뉴큼온을 위한 작은 도약</strong></span></h2>
+		<title> 유세진의 코딩 도전기</title>
 	</head>
 	
 	<body>
 	
-		<div class="container">
-	  		<fieldset id="container">
-		 		 <form name="calculator">
-
-			 	 	<input id="display" type="text" name="display" readonly>
-					<br>
-			  		<input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
-			  		<input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
-			  		<input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
-			  		<input class="button mathButtons" type="button" value="+" onclick="calculator.display.value += ' + '">
-			  		<br>
-			  		<input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
-			  		<input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
-			  		<input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
-			  		<input class="button mathButtons" type="button" value="-" onclick="calculator.display.value += ' - '">
-			  		<br>
-			  		<input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
-			  		<input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
-			  		<input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
-			  		<input class="button mathButtons" type="button" value="x" onclick="calculator.display.value += ' * '">
-			  		<br>
-			  		<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
-					<input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
-			  		<input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
-			  		<input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += ' / '">
-		  		</form>
-	  		</fieldset>
-  		</div>
+		<div>
+			<h2 style="text-align: center;"><span style="color: #00ffff;"><strong>뉴큼온을 위한 작은 도약</strong></span></h2>
+		</div>
+	
+		<div class = title >어디선가 퍼온 계산기</div> 
+		
+      			<table border="1"> 
+		 	<tr> 
+          		<td colspan="3"><input type="text" id="result"/></td> 
+            		<!-- clr() function will call clr to clear all value -->
+            		<td><input type="button" value="c" onclick="clr()"/> </td> 
+         		</tr> 
+         		<tr> 
+            		<!-- create button and assign value to each button -->
+            		<!-- dis("1") will call function dis to display value -->
+            		<td><input type="button" value="1" onclick="dis('1')"/> </td> 
+            		<td><input type="button" value="2" onclick="dis('2')"/> </td> 
+            		<td><input type="button" value="3" onclick="dis('3')"/> </td> 
+            		<td><input type="button" value="/" onclick="dis('/')"/> </td> 
+         		</tr> 
+         		<tr> 
+            		<td><input type="button" value="4" onclick="dis('4')"/> </td> 
+            		<td><input type="button" value="5" onclick="dis('5')"/> </td> 
+            		<td><input type="button" value="6" onclick="dis('6')"/> </td> 
+            		<td><input type="button" value="-" onclick="dis('-')"/> </td> 
+         		</tr> 
+         		<tr> 
+            		<td><input type="button" value="7" onclick="dis('7')"/> </td> 
+            		<td><input type="button" value="8" onclick="dis('8')"/> </td> 
+            		<td><input type="button" value="9" onclick="dis('9')"/> </td> 
+            		<td><input type="button" value="+" onclick="dis('+')"/> </td> 
+         		</tr> 
+			 <tr> 
+            		<td><input type="button" value="." onclick="dis('.')"/> </td> 
+            		<td><input type="button" value="0" onclick="dis('0')"/> </td> 
+            		<!-- solve function call function solve to evaluate value -->
+            		<td><input type="button" value="=" onclick="solve()"/> </td> 
+            		<td><input type="button" value="*" onclick="dis('*')"/> </td> 
+         		</tr> 
+      		</table> 
 	
 	</body>
 	
