@@ -25,17 +25,17 @@
       		</script> 
       		<!-- for styling -->
       		<style> 
-         		.title{ 
+         		title{ 
          		margin-bottom: 10px; 
          		text-align:center; 
          		width: 210px; 
-         		color:green; 
+         		color: black; 
          		border: solid black 2px; 
          		} 
   
          		input[type="button"] 
          		{ 
-        		background-color:FloralWhite; 
+        		background-color:lightgreen; 
          		color: black; 
          		border: solid black 2px; 
          		width:100% 
