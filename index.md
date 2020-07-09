@@ -72,9 +72,9 @@
          		<tr> 
             		<!-- create button and assign value to each button -->
             		<!-- dis("1") will call function dis to display value -->
-            		<td><input type="button" value="1" onclick="dis('1')"/> </td> 
-            		<td><input type="button" value="2" onclick="dis('2')"/> </td> 
-            		<td><input type="button" value="3" onclick="dis('3')"/> </td> 
+            		<td><input type="button" value="7" onclick="dis('7')"/> </td> 
+            		<td><input type="button" value="8" onclick="dis('8')"/> </td> 
+            		<td><input type="button" value="9" onclick="dis('9')"/> </td> 
             		<td><input type="button" value="/" onclick="dis('/')"/> </td> 
          		</tr> 
          		<tr> 
@@ -84,14 +84,14 @@
             		<td><input type="button" value="-" onclick="dis('-')"/> </td> 
          		</tr> 
          		<tr> 
-            		<td><input type="button" value="7" onclick="dis('7')"/> </td> 
-            		<td><input type="button" value="8" onclick="dis('8')"/> </td> 
-            		<td><input type="button" value="9" onclick="dis('9')"/> </td> 
+            		<td><input type="button" value="1" onclick="dis('1')"/> </td> 
+            		<td><input type="button" value="2" onclick="dis('2')"/> </td> 
+            		<td><input type="button" value="3" onclick="dis('3')"/> </td> 
             		<td><input type="button" value="+" onclick="dis('+')"/> </td> 
          		</tr> 
 			 <tr> 
-            		<td><input type="button" value="." onclick="dis('.')"/> </td> 
             		<td><input type="button" value="0" onclick="dis('0')"/> </td> 
+            		<td><input type="button" value="." onclick="dis('.')"/> </td> 
             		<!-- solve function call function solve to evaluate value -->
             		<td><input type="button" value="=" onclick="solve()"/> </td> 
             		<td><input type="button" value="*" onclick="dis('*')"/> </td> 
