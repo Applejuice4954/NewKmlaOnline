@@ -102,7 +102,7 @@
 		
 			<p>유세진 짱짱맨<br><br>
 			계산기 코드 출처: https://www.geeksforgeeks.org/html-calculator
-			<a href="https://www.geeksforgeeks.org/html-calculator/" target="_blank"> [클릭하여 바로가기]</a>
+			<a href="https://www.geeksforgeeks.org/html-calculator/" target="_blank"> [클릭하여 바로가기]</a><br><br>
 			<a href="http://main.minsacraft.kro.kr/" target="_blank"> [눌러봐ㅎㅎ] </a>
 			</p>
 		
